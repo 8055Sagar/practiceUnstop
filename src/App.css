@@ -1,0 +1,704 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #F6F8FA;
+}
+
+.sideBar {
+  width: 140px;
+  height: 992px;
+  padding: 16px 20px 20px 30px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  width: 1264px;
+  height: 70px;
+  border-radius: 12px 12px 0px 0px;
+  border: 0px 0px 1px 0px;
+}
+
+.assessmentForm {
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.assessmentText {
+  width: 120px;
+  height: 28px;
+  color: #1C4980;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.my_assessment {
+  display: flex;
+  width: 1224px;
+  align-items: flex-start;
+  gap: 30px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+
+.headerTags {
+  display: flex;
+  align-items: center;
+  width: 27%;
+  height: 70px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.headerBar {
+  display: flex;
+  width: 1224px;
+  height: 70px;
+  justify-content: space-between;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 1px solid #DDE5EA;
+}
+
+.assessments {
+  width: 1264px;
+  height: 664px;
+  border-radius: 0px 0px 12px 12px;
+  gap: 24px;
+}
+
+.assessmentsForm {
+  width: 1224px;
+  height: 1020px;
+}
+
+.assessmentText {
+  width: 202px;
+  height: 25px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1C4980;
+  padding-left: 20px;
+}
+
+.assessmentsOverview {
+  display: flex;
+  width: 1224px;
+  border-radius: 12px;
+  border: 1px solid #DADCE0;
+  gap: 1px;
+  margin-left: 20px;
+}
+
+.totalAssessments {
+  border-radius: 12px;
+  width: 162px;
+  height: 114px;
+  padding: 16px 20px 16px 20px;
+  gap: 16px;
+}
+
+.total_candidates {
+  border: 1px solid #DADCE0;
+  width: 369px;
+  height: 114px;
+  padding: 16px 20px 16px 20px;
+  gap: 16px;
+  border-bottom: none;
+  border-top: none;
+}
+
+.candidates_source {
+  border: 1px solid #DADCE0;
+  width: 499px;
+  height: 114px;
+  padding: 16px 20px 16px 20px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+.total_purpose {
+  width: 188px;
+  height: 114px;
+  padding: 16px 20px 16px 20px;
+  gap: 16px;
+}
+
+.texts {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1C4980;
+}
+
+.icon_one {
+  width: 77px;
+  height: 40px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_two {
+  width: 277px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_three {
+  width: 373px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_four {
+  width: 70px;
+  height: 40px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.total_p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1C4980;
+}
+
+.text_in_two {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 97px;
+  color: #1C4980;
+  margin-left: 12px;
+}
+
+.span_in_two {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 60px;
+  color: #1C4980;
+  margin-left: 12px;
+}
+
+.p_span {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #05C165;
+}
+
+.content_two {
+  width: 91px;
+  height: 46px;
+  gap: 1px;
+}
+
+.content_in_two {
+  display: flex;
+  align-items: center;
+  width: 88px;
+  height: 28px;
+  gap: 4px
+}
+
+.divider {
+  height: 37px;
+  border: 1px solid #DADCE0;
+  margin-right: 13px;
+}
+
+.new_assessment_form {
+  width: 28%;
+  height: 149px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: #F6F8FA;
+  border-radius: 12px;
+  border: 1px dashed #DADCE0;
+  cursor: pointer;
+}
+
+.new_assessment_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.suggestion_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.assessment_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.assessment_component {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #DADCE0;
+  cursor: pointer;
+  max-width: 354px;
+}
+
+.job_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.assessment_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.assessment_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.smallDivider {
+  height: 15px;
+  border: 1px solid #DADCE0;
+}
+
+.calender_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.date_text {
+  color: #8DA4BF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.date {
+  display: flex;
+  height: 22px;
+  align-items: center;
+  gap: 4px;
+}
+
+.duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.duration_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 16.8px */
+}
+
+.zero_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.time_duration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -1px;
+}
+
+.share_text {
+  margin: 0px 0px;
+  color: #1C4980;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.share_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.share {
+  display: flex;
+  height: 22px;
+  padding: 2px 8px 2px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 2px solid #1C4980;
+  border-radius: 20px;
+}
+
+.duration_with_questions {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.dots {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.assessment_form {
+  display: flex;
+  width: 591px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -1px;
+  height: 100vh;
+}
+
+.form_header {
+  display: flex;
+  height: 70px;
+  width: 531px;
+  padding: 0px 30px 0px 30px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid #DADCE0;
+  background: #FFF;
+  border-bottom: 1px solid #DADCE0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form_header_text {
+  color: #1C4980;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form_fields {
+  display: flex;
+  width: 531px;
+  padding: 20px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border: 1px solid #DADCE0;
+  background: #FFF;
+  overflow-y: auto;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.input_field {
+  display: flex;
+  height: 20px;
+  padding: 13px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #DADCE0;
+  background: #FFF;
+}
+
+/* Style the react-select component inside .input_field */
+.input_field .react-select__control {
+  flex: 1;
+  /* To stretch the react-select component */
+  border: none;
+  /* To remove default react-select border */
+  background: transparent;
+  /* To make the background transparent */
+  font-size: 16px;
+  /* Custom font size for the react-select */
+}
+
+.lable_text {
+  margin: 10px 10px;
+  color: #1C4980;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.save-button {
+  display: flex;
+  height: 40px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #0073E6;
+  border: none;
+  color: white;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #1C4980;
+  text-align: start;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.filterOptions {
+  display: none;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 480px) {
+  .sideBar {
+    display: none;
+  }
+
+  .header {
+    width: 343px;
+    height: 70px;
+    border-radius: 12px 12px 0px 0px;
+    border: 0px 0px 1px 0px;
+  }
+
+  .headerBar {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 1px solid #DDE5EA;
+  }
+
+  .assessmentsOverview {
+    display: none;
+  }
+
+  .my_assessment {
+    display: flex;
+    width: 434px;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .headerBar {
+    display: flex;
+    width: 434px;
+    height: 70px;
+    justify-content: space-between;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 1px solid #DDE5EA;
+  }
+
+  .assessments {
+    width: 434px;
+    height: 664px;
+    border-radius: 0px 0px 12px 12px;
+    gap: 24px;
+  }
+
+  .assessmentsForm {
+    width: 434px;
+    height: 1020px;
+  }
+
+  .new_assessment_form {
+    width: 330px;
+    height: 149px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: #F6F8FA;
+    border-radius: 12px;
+    border: 1px dashed #DADCE0;
+    cursor: pointer;
+  }
+
+  .assessment_component {
+    width: 360px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #DADCE0;
+    cursor: pointer;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .myAssessmentsText {
+    display: none;
+  }
+
+  .overview_text {
+    display: none;
+  }
+
+  .assessment_form {
+    width: auto;
+  }
+
+  .form_header {
+    width: auto
+  }
+
+  .form_fields {
+    width: auto;
+  }
+
+  .assessmentForm {
+    margin-left: 0px;
+  }
+
+  .filter {
+    display: flex;
+    width: 409px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .filterOptions {
+    display: contents;
+  }
+
+}

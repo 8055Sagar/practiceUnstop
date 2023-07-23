@@ -1,0 +1,35 @@
+.assessmentHeader {
+display: none;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 480px) {
+
+    .assessmentHeader {
+        display: flex;
+        border-bottom: 2px solid #F6F8FA;
+    
+        .assessmentButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex: 1 0 0;
+            background: #FFF;
+            color: #1C4980;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            border: none;
+            height: 55px
+        }
+
+        .assessmentButton.active{
+            color: #0073E6;
+            border-bottom: 0.286rem solid #0073E6;
+            padding: 26px 0rem 22px 0rem;
+        }
+    }
+}
